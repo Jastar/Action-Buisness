@@ -1,0 +1,164 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  section#slider div.row nav {
+    left: 3.5%;
+    right: 3.5%; }
+    section#slider div.row nav ul#navigation li a {
+      padding: 20px 5px; }
+  section#slider div.row div.banner {
+    right: 6%; } }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  section#slider div.row nav {
+    left: 3.5%;
+    right: 3.5%; }
+    section#slider div.row nav ul#navigation li a {
+      padding: 20px 10px; }
+  section#slider div.row div.banner {
+    right: 4%; }
+  section#slider div.row div.owl-carousel div.slide1 h3, section#slider div.row div.owl-carousel div.slide2 h3, section#slider div.row div.owl-carousel div.slide3 h3 {
+    padding: 25px 0px; }
+  section#slider div.row div.owl-carousel div.owl-dots {
+    top: 100%; }
+  section#slider div.row hr {
+    max-width: 120px;
+    top: -10px; }
+
+  section#ourmission div.row div.text-right, section#ourmission div.row div.text-left {
+    text-align: center; }
+    section#ourmission div.row div.text-right h2, section#ourmission div.row div.text-left h2 {
+      text-align: center;
+      margin: 10px auto 20px auto;
+      max-width: 400px; }
+    section#ourmission div.row div.text-right p, section#ourmission div.row div.text-left p {
+      margin: 10px auto;
+      text-align: justify;
+      max-width: 400px; }
+    section#ourmission div.row div.text-right a.readMore, section#ourmission div.row div.text-left a.readMore {
+      margin: 10px auto; }
+  section#ourmission div.row div.col-lg-2 {
+    text-align: center; }
+    section#ourmission div.row div.col-lg-2 p {
+      margin: 0 auto 15px auto; }
+    section#ourmission div.row div.col-lg-2 button.more1, section#ourmission div.row div.col-lg-2 button.more2, section#ourmission div.row div.col-lg-2 button.more3, section#ourmission div.row div.col-lg-2 button.more4, section#ourmission div.row div.col-lg-2 button.more5, section#ourmission div.row div.col-lg-2 button.more6 {
+      display: block;
+      margin: 0 auto 20px auto; }
+
+  footer div.col-lg-3 {
+    text-align: center; }
+    footer div.col-lg-3 ul {
+      margin-bottom: 20px; } }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  section#slider div.row nav {
+    left: 2%;
+    right: 2%; }
+    section#slider div.row nav ul#navigation li a {
+      padding: 20px 40px 25px 40px; }
+  section#slider div.row div.banner {
+    right: 3%; }
+  section#slider div.row div.owl-carousel div.slide1 h3, section#slider div.row div.owl-carousel div.slide2 h3, section#slider div.row div.owl-carousel div.slide3 h3 {
+    padding: 25px 70px; }
+  section#slider div.row div.owl-carousel div.slide3 h3 {
+    padding: 25px 50px; }
+  section#slider div.row div.owl-carousel div.owl-dots {
+    top: 99%; }
+  section#slider div.row hr {
+    max-width: 270px;
+    top: -15px; }
+
+  section#ourmission div.row div.text-right p, section#ourmission div.row div.text-left p {
+    max-height: 130px;
+    overflow: hidden;
+    max-width: 275px; }
+  section#ourmission div.row div.text-right {
+    text-align: right; }
+    section#ourmission div.row div.text-right h2 {
+      text-align: right;
+      margin: 10px 50px 20px auto; }
+    section#ourmission div.row div.text-right p {
+      margin: 0px 50px 20px auto; }
+    section#ourmission div.row div.text-right a.readMore {
+      margin: 0px 50px 0px auto; }
+  section#ourmission div.row div.text-left {
+    text-align: left; }
+    section#ourmission div.row div.text-left h2 {
+      text-align: left;
+      margin: 10px auto 20px 50px; }
+    section#ourmission div.row div.text-left p {
+      margin: 0px auto 20px 50px; }
+    section#ourmission div.row div.text-left a.readMore {
+      margin: 0px auto 0px 50px; }
+
+  footer div.first, footer div.second, footer div.third {
+    text-align: center; }
+  footer div.fourth h2 {
+    margin: 20px auto;
+    text-align: center; }
+  footer div.fourth h5 {
+    text-align: center; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  section#slider div.row nav {
+    left: 1.5%;
+    right: 1.5%; }
+    section#slider div.row nav ul#navigation li a {
+      padding: 20px 50px 25px 50px; }
+  section#slider div.row div.banner {
+    right: 2%; }
+  section#slider div.row div.owl-carousel div.slide1 h3, section#slider div.row div.owl-carousel div.slide2 h3, section#slider div.row div.owl-carousel div.slide3 h3 {
+    padding: 25px 200px; }
+  section#slider div.row div.owl-carousel div.slide3 h3 {
+    padding: 25px 170px; }
+  section#slider div.row div.owl-carousel div.owl-dots {
+    top: 100%; }
+  section#slider div.row hr {
+    max-width: 380px;
+    top: -10px; }
+
+  section#ourmission div.row div.text-right p, section#ourmission div.row div.text-left p {
+    max-height: none;
+    overflow: none;
+    max-width: 355px; }
+  section#ourmission div.row div.text-right h2 {
+    margin: 0px 50px 0px auto; }
+  section#ourmission div.row div.text-right p {
+    margin: 30px 50px 20px auto; }
+  section#ourmission div.row div.text-left h2 {
+    margin: 0px auto 0px 50px; }
+  section#ourmission div.row div.text-left p {
+    margin: 30px auto 20px 50px; }
+
+  footer div.first, footer div.second, footer div.third {
+    text-align: justify; }
+  footer div.fourth h2 {
+    margin: 0 auto;
+    text-align: left; }
+  footer div.fourth h5 {
+    text-align: right; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  section#slider div.row nav {
+    left: 1.4%;
+    right: 1.3%; }
+  section#slider div.row div.owl-carousel div.slide1 h3, section#slider div.row div.owl-carousel div.slide2 h3, section#slider div.row div.owl-carousel div.slide3 h3 {
+    padding: 25px 300px; }
+  section#slider div.row div.owl-carousel div.slide3 h3 {
+    padding: 25px 270px; }
+  section#slider div.row div.owl-carousel div.owl-dots {
+    position: absolute;
+    top: 99%;
+    bottom: 0%; }
+  section#slider div.row hr {
+    max-width: 480px;
+    top: -18px; }
+
+  section#ourmission div.row div.text-right p, section#ourmission div.row div.text-left p {
+    max-width: 450px; } }

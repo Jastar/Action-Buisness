@@ -1,0 +1,276 @@
+h1 {
+  font-size: 71px;
+  line-height: 18px;
+  font-family: "PassionOneRegular";
+  color: #fff; }
+
+h2 {
+  font-size: 36px;
+  line-height: 18px;
+  font-family: "PassionOneRegular";
+  color: #6a4c31; }
+
+h3 {
+  font-size: 26px;
+  line-height: 29px;
+  font-family: "OpenSansExtraBold";
+  color: #85a09d; }
+
+h4 {
+  font-size: 24px;
+  line-height: 18px;
+  font-family: "PassionOneRegular";
+  color: #b4b4b4; }
+
+h5 {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "ArialBold";
+  color: #6a4c31; }
+
+body {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "ArialNarrow";
+  color: #b4b4b4; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+/********************************************* HEADER *********************************************/
+header {
+  background: #849e9d; }
+  header hr {
+    width: 100px;
+    border: none;
+    border-bottom: 2px solid #a1b9b8;
+    margin: 25px auto;
+    display: inline-block; }
+  header h1 {
+    margin: 30px auto;
+    width: 270px;
+    letter-spacing: 5px;
+    display: inline-block; }
+    header h1 span {
+      margin: 12px auto 0px auto;
+      font-size: 18px;
+      line-height: 18px;
+      display: block;
+      border-bottom: 1px solid #fff;
+      max-width: 215px; }
+
+/********************************************* HEADER *********************************************/
+/********************************************* SECTION#SLIDER *********************************************/
+section#slider {
+  background: -webkit-linear-gradient(#849e9d, #fff);
+  background: linear-gradient(#849e9d, #fff); }
+  section#slider div.row {
+    padding: 0px 15px; }
+    section#slider div.row nav {
+      background: -webkit-linear-gradient(#e2fbfa, #ccf0f1);
+      background: linear-gradient(#e2fbfa, #ccf0f1);
+      padding: 3px 0px 15px 0px;
+      position: absolute;
+      z-index: 1000; }
+      section#slider div.row nav ul#navigation {
+        padding: 0px;
+        margin: 15px auto 0px auto;
+        text-align: center; }
+        section#slider div.row nav ul#navigation li {
+          list-style-type: none;
+          display: inline-block; }
+          section#slider div.row nav ul#navigation li a {
+            font-size: 13px;
+            line-height: 18px;
+            font-family: "TrebuchetMS";
+            color: #86a5a3;
+            text-decoration: none;
+            -webkit-transition: background 0.5s ease-in-out;
+            transition: background 0.5s ease-in-out; }
+            section#slider div.row nav ul#navigation li a:hover {
+              background-color: #839e9c;
+              color: #fff; }
+    section#slider div.row div.banner {
+      -webkit-animation-delay: 2s;
+      animation-delay: 2s;
+      z-index: 1000;
+      position: absolute;
+      top: 60px;
+      width: 180px;
+      height: 180px;
+      background: url("../images/bannerbg.png");
+      background-repeat: no-repeat;
+      overflow: hidden; }
+      section#slider div.row div.banner h5 {
+        max-width: 90px;
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-transform: rotateZ(45deg);
+        -ms-transform: rotateZ(45deg);
+        transform: rotateZ(45deg);
+        margin: 25px 15px 40px 80px; }
+        section#slider div.row div.banner h5 span {
+          font-size: 24px;
+          line-height: 24px; }
+    section#slider div.row div.owl-carousel div.slide1, section#slider div.row div.owl-carousel div.slide2, section#slider div.row div.owl-carousel div.slide3 {
+      margin: 50px auto 0px auto; }
+      section#slider div.row div.owl-carousel div.slide1 img, section#slider div.row div.owl-carousel div.slide2 img, section#slider div.row div.owl-carousel div.slide3 img {
+        border-top: 2px solid #357894;
+        width: 100%;
+        height: auto;
+        max-height: 690px; }
+      section#slider div.row div.owl-carousel div.slide1 h3, section#slider div.row div.owl-carousel div.slide2 h3, section#slider div.row div.owl-carousel div.slide3 h3 {
+        margin: 0px auto;
+        text-align: center;
+        background-color: transparent;
+        text-transform: uppercase; }
+    section#slider div.row div.owl-carousel div.owl-dots {
+      margin: 0 auto;
+      position: absolute;
+      left: 0%;
+      right: 0%; }
+      section#slider div.row div.owl-carousel div.owl-dots div span {
+        background-color: #85a09d;
+        width: 25px;
+        height: 25px; }
+      section#slider div.row div.owl-carousel div.owl-dots div.active span {
+        background-color: #6a4c31; }
+    section#slider div.row hr {
+      width: 100%;
+      border-bottom: 2px solid #a1b9b8;
+      margin: 25px auto;
+      opacity: 0.7;
+      position: relative; }
+    section#slider div.row div.text-right hr {
+      margin-right: 50px; }
+    section#slider div.row div.text-left hr {
+      margin-left: 50px; }
+
+/********************************************* SECTION#SLIDER *********************************************/
+/********************************************* SECTION#OURMISSION *********************************************/
+section#ourmission div.row a {
+  color: #85a09d;
+  text-decoration: none;
+  border-bottom: 1px solid #85a09d; }
+section#ourmission div.row hr.mission1, section#ourmission div.row hr.mission2 {
+  max-width: 420px;
+  border: none;
+  border-bottom: 2px solid #d2d9d8; }
+section#ourmission div.row hr.mission1 {
+  margin: 40px auto 0px auto; }
+section#ourmission div.row hr.mission2 {
+  margin: 0px auto 40px auto; }
+section#ourmission div.row div.text-center h2 {
+  margin: 10px auto;
+  color: #85a09d; }
+section#ourmission div.row div.col-lg-2 img {
+  margin: 0 auto;
+  border: 1px solid #d2d9d8; }
+section#ourmission div.row div.col-lg-2 h5 {
+  margin: 15px auto; }
+section#ourmission div.row div.col-lg-2 p {
+  text-align: justify;
+  margin: 0 auto 15px 0px;
+  max-width: 150px;
+  overflow: hidden; }
+section#ourmission div.row div.col-lg-2 p.hiddenp1, section#ourmission div.row div.col-lg-2 p.hiddenp2, section#ourmission div.row div.col-lg-2 p.hiddenp3, section#ourmission div.row div.col-lg-2 p.hiddenp4, section#ourmission div.row div.col-lg-2 p.hiddenp5, section#ourmission div.row div.col-lg-2 p.hiddenp6 {
+  display: none; }
+section#ourmission div.row div.col-lg-2 button.more1, section#ourmission div.row div.col-lg-2 button.more2, section#ourmission div.row div.col-lg-2 button.more3, section#ourmission div.row div.col-lg-2 button.more4, section#ourmission div.row div.col-lg-2 button.more5, section#ourmission div.row div.col-lg-2 button.more6 {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 0px;
+  border-bottom: 1px solid #85a09d; }
+section#ourmission div.row hr {
+  border: none;
+  border-bottom: 2px solid #d2d9d8;
+  margin: 25px auto; }
+
+/********************************************* SECTION#OURMISSION *********************************************/
+/********************************************* FOOTER *********************************************/
+footer h2 {
+  margin: 0 auto; }
+footer div.first h2, footer div.second h2, footer div.third h2 {
+  margin: 0 auto 25px auto; }
+footer div.first ul, footer div.second ul, footer div.third ul {
+  padding: 0px 0px 0px 15px;
+  margin: 0 auto; }
+  footer div.first ul li, footer div.second ul li, footer div.third ul li {
+    list-style-image: url("../images/listarrow.gif"); }
+    footer div.first ul li a, footer div.second ul li a, footer div.third ul li a {
+      font-size: 11px;
+      line-height: 24px;
+      font-family: "ArialNarrow";
+      color: #85a09d;
+      text-decoration: none;
+      -webkit-transition: opacity 0.3s ease-in-out;
+      transition: opacity 0.3s ease-in-out; }
+      footer div.first ul li a:hover, footer div.second ul li a:hover, footer div.third ul li a:hover {
+        opacity: 0.7; }
+footer div.fourth h2 {
+  color: #85a09d; }
+footer div.fourth div.testimonials {
+  max-width: 280px;
+  margin: 10px auto 0px auto;
+  background-color: #e5e9e8;
+  padding: 10px 15px;
+  position: relative; }
+  footer div.fourth div.testimonials:after {
+    top: 100%;
+    right: 80px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: #e5e9e8;
+    border-width: 22px;
+    margin-right: 0px; }
+  footer div.fourth div.testimonials p {
+    text-align: justify;
+    margin: 0 auto;
+    display: inline;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: "ArialNarrow";
+    color: #6a4c31; }
+    footer div.fourth div.testimonials p span {
+      font-size: 30px;
+      line-height: 18px;
+      color: #85a09d; }
+  footer div.fourth div.testimonials p.responses {
+    display: none; }
+  footer div.fourth div.testimonials button.showTestimonials {
+    display: inline;
+    font-size: 30px;
+    line-height: 18px;
+    color: #85a09d;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0px;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out; }
+    footer div.fourth div.testimonials button.showTestimonials:hover {
+      opacity: 0.7; }
+footer div.fourth h5 {
+  color: #85a09d; }
+footer hr {
+  margin: 0 auto 20px auto;
+  border: none;
+  border-bottom: 2px solid #d2d9d8; }
+footer h4 span {
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "ArialNarrow"; }
+
+/********************************************* FOOTER *********************************************/

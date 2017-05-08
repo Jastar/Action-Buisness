@@ -1,0 +1,404 @@
+﻿/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	section#slider {
+		div.row {
+			nav {
+				left: 3.5%;
+				right: 3.5%;
+					ul#navigation {
+						li {
+							a {
+								padding: 20px 5px;
+							}
+						}
+					}
+			}
+
+			div.banner {
+				right: 6%;
+			}
+		}
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	section#slider {
+		div.row {
+			nav {
+				left: 3.5%;
+				right: 3.5%;
+					ul#navigation {
+						li {
+							a {
+								padding: 20px 10px;
+							}
+						}
+					}
+			}
+
+			div.banner {
+				right: 4%;
+			}
+
+			div.owl-carousel {
+				div.slide1, div.slide2, div.slide3 {
+					h3 {
+						padding: 25px 0px;
+					}
+
+				}
+
+				div.owl-dots {
+					top: 100%;
+				}
+			}
+
+			hr {
+				max-width: 120px;
+				top: -10px;
+			}
+		}
+	}
+	
+	section#ourmission {
+		div.row {
+			div.text-right, div.text-left {
+				text-align: center;
+				h2 {
+					text-align: center;
+					margin: 10px auto 20px auto;
+					max-width: 400px;
+					}
+
+				p {
+					margin: 10px auto;
+					text-align: justify;
+					max-width: 400px;
+				}
+
+				a.readMore {
+					margin: 10px auto;
+				}
+			}		
+
+
+			div.col-lg-2 {
+				text-align: center;
+
+					p {
+						margin: 0 auto 15px auto;
+					}
+
+					button.more1, button.more2, button.more3, button.more4, button.more5, button.more6 {
+						display: block;
+						margin: 0 auto 20px auto;
+					}
+			}
+		}
+	}
+
+	footer {
+		
+			div.col-lg-3 {
+				text-align: center;
+
+				ul {
+					margin-bottom: 20px;
+				}
+			}
+		
+	}
+}	
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	section#slider {
+		div.row {
+			nav {
+				left: 2%;
+				right: 2%;
+					ul#navigation {
+						li {
+							a {
+								padding: 20px 40px 25px 40px;
+							}
+						}
+					}
+			}
+
+			div.banner {
+				right: 3%;
+			}
+
+			div.owl-carousel {
+				div.slide1, div.slide2, div.slide3 {
+					h3 {
+						padding: 25px 70px;
+					}
+
+				}
+
+				div.slide3 {
+					h3 {
+						padding: 25px 50px;
+					}
+				}
+
+				div.owl-dots {
+					top: 99%;
+				}
+			}
+
+			hr {
+				max-width: 270px;
+				top: -15px;
+			}
+		}
+	}
+
+	section#ourmission {
+		div.row {
+
+			div.text-right, div.text-left {
+				p {
+					max-height: 130px;
+					overflow: hidden;
+					max-width: 275px;
+				}
+			}
+
+			div.text-right {
+				text-align: right;
+				
+				h2 {
+					text-align: right;
+					margin: 10px 50px 20px auto;
+				}
+
+				p {
+					margin: 0px 50px 20px auto;
+				}
+
+				a.readMore {
+					margin: 0px 50px 0px auto;
+				}
+			}
+
+			div.text-left {
+				text-align: left;
+					h2 {
+						text-align: left;
+						margin: 10px auto 20px 50px;
+					}
+
+					p {
+						margin: 0px auto 20px 50px;
+					}
+
+					a.readMore {
+						margin: 0px auto 0px 50px;
+					}
+
+			}
+		}
+	}
+
+	footer {
+		div.first, div.second, div.third {
+			text-align: center;
+		}
+
+		div.fourth {
+			h2 {
+				margin: 20px auto;
+				text-align: center;
+			}
+
+			h5 {
+				text-align: center;
+			}
+		}
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	section#slider {
+		div.row {
+			nav {
+				left: 1.5%;
+				right: 1.5%;
+					ul#navigation {
+						li {
+							a {
+								padding: 20px 50px 25px 50px;
+							}
+						}
+					}
+			}
+
+			div.banner {
+				right: 2%;
+			}
+
+			div.owl-carousel {
+				div.slide1, div.slide2, div.slide3 {
+					h3 {
+						padding: 25px 200px;
+					}
+
+				}
+
+				div.slide3 {
+					h3 {
+						padding: 25px 170px;
+					}
+				}
+
+				div.owl-dots {
+					top: 100%;
+				}
+			}
+
+			hr {
+				max-width: 380px;
+				top: -10px;
+			}
+		}
+	}
+
+	section#ourmission {
+		div.row {
+			
+			div.text-right, div.text-left {
+				p {
+					max-height: none;
+					overflow: none;
+					max-width: 355px;
+				}
+			}
+
+			div.text-right {
+				
+				
+				h2 {
+					margin: 0px 50px 0px auto;
+				}
+
+				p {
+					margin: 30px 50px 20px auto;
+				}
+			}
+
+			div.text-left {
+
+					h2 {
+						margin: 0px auto 0px 50px;
+					}
+
+					p {
+						margin: 30px auto 20px 50px;
+					}
+
+			}
+		}
+	}
+
+	footer {
+		div.first, div.second, div.third {
+			text-align: justify;
+		}
+
+		div.fourth {
+			h2 {
+				margin: 0 auto;
+				text-align: left;
+			}
+
+			h5 {
+				text-align: right;
+			}
+		}
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	section#slider {
+		div.row {
+			nav {
+				left: 1.4%;
+				right: 1.3%;
+			}
+
+			div.owl-carousel {
+				div.slide1, div.slide2, div.slide3 {
+					h3 {
+						padding: 25px 300px;
+					}
+
+				}
+
+				div.slide3 {
+					h3 {
+						padding: 25px 270px;
+					}
+				}
+
+				div.owl-dots {
+					position: absolute;
+					top: 99%;
+					bottom: 0%;
+				}
+			}
+
+			hr {
+				max-width: 480px;
+				top: -18px;
+			}
+		}
+	}
+
+	section#ourmission {
+		div.row {
+			div.text-right, div.text-left {
+				p {
+					max-width: 450px;
+				}
+			}
+		}
+	}
+
+}
